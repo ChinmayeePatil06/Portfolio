@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("images/table2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.head2 {
+  background-color: #989898;
+}
+
+.sidebar {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 434px;
+  height: 100vh;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.sidebar nav {
+  padding: 40px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 25px;
+  padding: 33px 0;
+}
+
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar nav li :hover {
+  font-size: 28px;
+  transition: 0.3s;
+}
+
+.main1 {
+  width: 90vw;
+}
+
+.main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("images/woman2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90vw;
+}
+
+.container {
+  display: flex;
+}
+
+.infoContainer {
+  display: flex;
+  height: 58vh;
+  width: 80vw;
+  margin: 144px auto;
+  justify-content: space-around;
+}
+
+.devInfo {
+  position: absolute;
+  font-family: "Source Code Pro", monospace;
+  left: 400px;
+  top: 250px;
+}
+
+.hello {
+  font-size: 55px;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.about {
+  font-size: 50px;
+}
+
+.more {
+  font-size: 22px;
+  font-family: "Fira Sans", sans-serif;
+  margin-top: 20px;
+}
+
+.btn {
+  margin-top: 34px;
+}
+
+.btn a {
+  text-decoration: none;
+  padding: 9px 14px;
+  border-radius: 22px;
+  color: white;
+  background-color: dodgerblue;
+  font-weight: bold;
+  font-size: 19px;
+  margin: 0 3px;
+  cursor: pointer;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.btn :hover {
+  color: dodgerblue;
+  background-color: white;
+  border-bottom: 2px solid rgb(207, 207, 207);
+  border-right: 2px solid rgb(207, 207, 207);
+  transition: 0.5s;
+}
+
+.main h1 {
+  font-size: 40px;
+  margin: 30px;
+}
+
+.details {
+  margin: 50px;
+  font-size: 25px;
+  font-family: "Fira Sans", sans-serif;
+  color: white;
+}
+
+.name1 {
+  margin: 40px 0;
+}
+
+.email {
+  margin: 40px 0;
+}
+
+.em {
+  color: white;
+}
+
+.number {
+  margin: 40px 0;
+  color: white;
+}
+
+.add {
+  margin: 40px 0;
+  color: white;
+}
+
+.linked {
+  margin: 40px 0;
+  color: white;
+}
+
+.sdetail {
+  font-size: 25px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.list3 {
+  margin: auto 80px;
+  color: white;
+}
+
+.pro {
+  margin: 40px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+#p1 {
+  font-size: 25px;
+  margin: 7px 0;
+  color: white;
+}
+
+#p2 {
+  font-size: 25px;
+  margin: 7px 0;
+  color: white;
+}
+
+#p3 {
+  font-size: 25px;
+  margin: 7px 0;
+  color: white;
+}
+
+.pro1 {
+  margin: 70px 50px;
+  text-align: justify;
+  font-size: 20px;
+  color: white;
+}
+
+.pro2 {
+  margin: 70px 50px;
+  text-align: justify;
+  font-size: 20px;
+  color: white;
+}
+
+.pro3 {
+  margin: 70px 50px;
+  text-align: justify;
+  font-size: 20px;
+  color: white;
+}
+
+.list2 {
+  list-style: none;
+  margin-right: 300px;
+}
+
+.abtme {
+  font-size: 25px;
+  font-family: "Fira Sans", sans-serif;
+  margin-left: 100px;
+  margin-right: 500px;
+  margin-top: 100px;
+  text-align: justify;
+  color: white;
+}
+
+h1 {
+  font-family: "Source code pro", "sans-sarif";
+  color: white;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  margin: 200px 50px;
+}
+
+#first {
+  margin: 0 30px;
+}
+
+#first :hover {
+  box-shadow: 0 0 10px #dbdbdb;
+}
+
+.link1 {
+  color: #ffffff;
+}
+
+#second {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+#third {
+  margin: 15px 60px;
+}
+
+#forth {
+  margin: 20px 5px;
+}
+
+#fifth {
+  margin: 20px 120px;
+}
